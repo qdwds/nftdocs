@@ -12,3 +12,6 @@ contract ATe{
 
 }
 ```
+https://github.com/qdwds/nftdocs/edit/master/docs/qq.md
+
+https://github.com/qdwds/nftdocs/edit/master/docs/qq.md
