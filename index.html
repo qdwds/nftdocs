@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>全栈开发NFT文档</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="./css/vue.css">
+    <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
+</head>
+
+<body>
+
+    <nav>
+        <a href="#/docs/aa">EN</a>
+        <a href="#/docs/qq">中文</a>
+    </nav>
+
+
+    <div id="app"></div>
+
+    
+    <script>
+        window.$docsify = {
+            name: "NFT全栈开发文档 ",
+            repo: "https://github.com/qdwds/nftdocs",
+            loadSidebar: true,
+            alias: {
+                "/.*/_sidebar.md": "/_sidebar.md"
+            },
+            // loadNavbar: true,
+            // loadNavbar: "./_navbar.md",
+            search: "auto", // 默认值
+            search: {
+                placeholder: {
+                    "/": "搜索"
+                },
+                noData: "找不到搜索内容!",
+                depth: 2,
+            },
+
+
+            plugins: [
+                EditOnGithubPlugin.create(
+                    "https://github.com/qdwds/nftdocs/blob/master/docs/",
+                    null,
+                    function (file) {
+                        if (file.indexOf("en") === -1) {
+                            return "编辑"
+                        } else {
+                            return "edit on git"
+                        }
+                    }
+                )
+            ],
+            copyCode: {
+                buttonText: "点击复制",
+                errorText: "错误",
+                successText: "已复制"
+            },
+            count: {
+                countable: true,
+                fontsize: "0.9em",
+                color: "rgb(90,90,90)",
+                language: "chinese"
+            }
+        }
+        console.log(window.$docsify);
+    </script>
+
+
+    <script src="./js/docsify@4.js"></script>
+    <script src="./js/search.min.js"></script>
+    <script src="./js/zoom-image.min.js"></script>
+    <script src="./js/docsify-copy-code.min.js"></script>
+    <script src="./js/countable.min.js"></script>
+    <script src="./js/prism-bash.min.js"></script>
+    <script src="./js/prism-javascript.min.js"></script>
+    <script src="./js/prism-solidity.min.js"></script>
+    <script src="./js/ws.js"></script>
+</body>
+
+</html>
