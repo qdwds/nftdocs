@@ -39,19 +39,11 @@
                 noData: "找不到搜索内容!",
                 depth: 2,
             },
-
-
             plugins: [
                 EditOnGithubPlugin.create(
                     "https://github.com/qdwds/nftdocs/blob/master/",
                     null,
-                    function (file) {
-                        if (file.indexOf("en") === -1) {
-                            return "编辑"
-                        } else {
-                            return "edit on git"
-                        }
-                    }
+                    ()=> "编辑"
                 )
             ],
             copyCode: {

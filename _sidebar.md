@@ -1,12 +1,14 @@
 
 <!-- 项目介绍图片放到README.md中 -->
 + NFT基础概念
+    - [什么是区块链](docs/nft/block.md)
+    - [什么是web3](docs/nft/web3.md)
     - [什么是NFT](docs/nft/nft.md)
     - [什么是ERC721标准](docs/nft/erc721.md) 
     - [代码实现NFT](docs/nft/code.md) 
 + 合约开发库
-    - [openzeppelin介绍](docs/libs/openzeppelin.md) 
-    - [opensea介绍](docs/libs/opensea.md)
+    - [openzeppelin](docs/libs/openzeppelin.md) 
+    - [opensea](docs/libs/opensea.md)
 + 实战开发
     - [批量创建NFT](docs/dev/batch.md) 
     - [付费创建NFT](docs/dev/eth.md) 
