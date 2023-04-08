@@ -13,7 +13,7 @@ npm install @openzeppelin/contracts
 ```
 
 ## 用法
-使用openzeppelin创建的一个基本职能合约，以下案例可用直接在remix中直接使用。
+使用openzeppelin创建的一个基本职能合约，以下案例可用直接脚手架和remix中直接使用。
 ```solidity
 pragma solidity ^0.8.0;
 
