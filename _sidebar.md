@@ -37,9 +37,9 @@
     - [部署项目到linux](docs/arrange/linux.md)
 
 + NFT漏洞相关
-    - [burn漏洞](docs/safe/burn.md)
-    - [随机数的安全](docs/safe/random.md)
-    - [重入漏洞](docs/safe/reentry.md)
-    - [dos](docs/safe/dos.md)
+    - [销毁漏洞和修复](docs/safe/burn.md)
+    <!-- - [随机数的安全](docs/safe/random.md) -->
+    - [重入漏洞和修复](docs/safe/reentry.md)
+    - [dos漏洞和修复](docs/safe/dos.md)
 
 
