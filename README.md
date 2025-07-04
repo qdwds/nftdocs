@@ -15,7 +15,3 @@
 
 [千聊](https://m.qlchat.com/api/gos?target=%2Fwechat%2Fpage%2Fchannel-intro%3FchannelId%3D2000019546152808%26ch_r%3DshareR1%26shareKey%3D32092306e23644dc8f74d65ceaf42031free%26sourceNo%3Dlink&pre=%2Fwechat%2Fpage%2Flive%2F2000019546239707%3FisBackFromShare%3DY%26wcl%3Dmiddlepage)
 
-## 有问必答
-可以添加我答疑、咨询、交流
-
-<image src="./img/my.jpg" style="width:300px"></image>
